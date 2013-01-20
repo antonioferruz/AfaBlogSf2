@@ -1,15 +1,15 @@
 parameters:
-    database_driver:   pdo_mysql
-    database_host:     127.0.0.1
-    database_port:     ~
-    database_name:     symfony
-    database_user:     root
-    database_password: ~
+  database_driver: pdo_mysql
+  database_host: 127.0.0.1
+  database_port: null
+  database_name: blog_symfony2
+  database_user: root
+  database_password: silver2013
+  mailer_transport: smtp
+  mailer_host: 127.0.0.1
+  mailer_user: null
+  mailer_password: null
+  locale: en
+  secret: e7e101f2bca8ac173698fd678e6488883
+  database_path: null
 
-    mailer_transport:  smtp
-    mailer_host:       127.0.0.1
-    mailer_user:       ~
-    mailer_password:   ~
-
-    locale:            en
-    secret:            ThisTokenIsNotSoSecretChangeIt
